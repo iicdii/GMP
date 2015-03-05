@@ -1,0 +1,42 @@
+body {
+  padding-top: 100px;
+  padding-bottom: 40px;
+  background-color: #6495ed;
+}
+
+h1{
+  font-size: 5em;
+  color:#fff;
+}
+
+a.arrow{
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  //display:block;
+  //width:100%;
+  //float:none;
+  text-decoration: none;
+  padding-bottom:30px;
+  /*transition cross-browser stuff*/
+  -webkit-transition: color 0.2s ease-out;  /* Safari 3.2+, Chrome */
+  -moz-transition: color 0.2s ease-out;  /* Firefox 4-15 */
+  -o-transition: color 0.2s ease-out;  /* Opera 10.5–12.00 */
+   transition: color 0.2s ease-out;  /* Firefox 16+, Opera 12.50+ */
+}
+a.arrow:hover {color: #9860C3;}
+
+#anchor{
+  padding-top: 400px;
+}
+
+.lead{
+  font-size: 1.6em;
+  color:#fff;
+}
+
+.btn-outline-inverse{
+  color:#fff;
+  background-color:transparent;
+  border-color:#BB83E6;
+}

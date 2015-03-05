@@ -1,0 +1,7 @@
+.input-group input[type="text"]{
+  width: 61%;
+}
+
+.input-group input[type="number"]{
+  width: 21%;
+}
